@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(144, 144, 144);
+    font-family: fantasy;
+    padding: 5em;
+
+}
+
+.fondoBlanco{
+    background-color: rgb(213, 212, 212);
+}
+
+.fondoAzul{
+    background-color: rgb(103, 170, 221);
+}
+
+.fondoNegro{
+    background-color: black;
+}
+
+.imagen{
+    width: 350px;
+}
+
+.texto1{
+    text-align: center;
+    font-size: 3em;
+    color: grey;
+}
+
+.texto2{
+font-size: 1em;
+color: rgb(0, 0, 0);
+text-align: justify;
+background-color: rgb(179, 174, 89);
+
+}
+.separacion{
+padding: 1em;
+
+}
+
+.texto3{
+    text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.borde{
+    border: 10px  solid white;
+    border-radius: 10px;
+}
+
+.centradoNegro{
+text-align: center;
+background-color: rgb(34, 43, 97);
+color: white;
+}
