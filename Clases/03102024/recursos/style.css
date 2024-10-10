@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Clases de colores */
+.bg-dark-blue {
+    background-color: #003366; /* Azul oscuro */
+}
+
+.bg-blue {
+    background-color: #00539B; /* Azul más claro */
+}
+
+.bg-white {
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+.text-gold {
+    color: #c0ac3c; /* Dorado */
+}
+
+.text-white {
+    color: #ffffff; /* Blanco */
+}
+
+.text-dark-blue {
+    color: #003366; /* Azul oscuro */
+}
+
+.text-blue {
+    color: #00539B; /* Azul claro */
+}
+
+/* Fondo del cuerpo */
+.background-gray {
+    background-color: #f5f5f5;
+}
+
+/* Navegación */
+nav ul {
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Sombra para las secciones */
+.box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
